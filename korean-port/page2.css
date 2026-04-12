@@ -4,6 +4,8 @@ body {
     
 }
 
+
+
 #content-wrap {
     padding: 20px 50px;
 
@@ -92,7 +94,8 @@ img.smaller-image {
 .subcontent {
     line-height: 1.8;
     margin: 20px 0;
-    max-width: 400px;
+    max-width: 410px;
+    min-width: 400px;
 }
 
 .image-flex {
