@@ -39,6 +39,8 @@ p{
     line-height: 1.8;
 }
 
+
+
 .cursive {
     font-family: "Shadows Into Light Two", cursive;
     font-weight: 400;
@@ -73,8 +75,6 @@ p{
     padding: 20px 50px;
     position: fixed;
     z-index: 10000;
-    color: white;
-    mix-blend-mode: difference;
     
 }
 
@@ -90,6 +90,10 @@ p{
     padding: 60px 50px;
     width: 100vw;
     
+}
+
+lang-switch {
+    color: black;
 }
 
 /*fixed body------------------------------*/
@@ -178,21 +182,25 @@ a:nth-of-type(even):hover .card {
 }
 
 
-.bold {
-    font-weight: 600;
-}
 
 
 button {
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    outline: none;
     font-size: 16px;
+    font-family: "Nanum Gothic", sans-serif;
     cursor: pointer;
-    transition: all 0.3s ease;
+    background: none;
 }
 
+.lang-switch button, .lang-switch span {
+  opacity: 0.5;
+}
+
+.lang-switch button.active {
+  opacity: 1;
+}
 
 /*responsive--------------------------------*/
 

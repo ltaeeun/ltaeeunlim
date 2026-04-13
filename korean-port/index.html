@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taeeun's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div id="wrap">
         <div id="header" class="flex">
-                <a href="index.html" class="cursive home">Taeeun Lim</a>
-                <ul class="flex">
-                    <li><a href="https://drive.google.com/file/d/1LucYQpumOBgdavRqfse2Iy4DHoebhbpL/view?usp=sharing">resume</a></li>
-                </ul>
-            </div>
+            <a href="index.html" class="cursive home">Taeeun Lim</a>
+            <ul class="flex">
+                <li class="lang-switch">
+                    <button id="krBtn" class="active">KR</button>
+                    <span>/</span>
+                    <button id="enBtn">EN</button>
+                </li>
+                <li><a
+                        href="https://drive.google.com/file/d/1LucYQpumOBgdavRqfse2Iy4DHoebhbpL/view?usp=sharing">resume</a>
+                </li>
+            </ul>
+        </div>
         <div id="fixed">
 
 
@@ -27,8 +35,11 @@
                     <p>Taeeun's <br>Design Portfolio</p>
                 </div>
                 <div id="introduction" class="flex">
-                    <p>안녕하세요! 한국에서 태어나 자랐고 현재 미국에서 세인트루이스 워싱턴 대학교에서 디자인을 공부하고 있는 임태은입니다. 편집, 그래픽, 모션 등 폭넓은 디자인 작업을 합니다.</p>
-                    <p>l.taeeun@wustl.edu <br>6300 Enright Ave, <br>MO 63130 <br>+1(314) 448-2959 <br>+82 010-8684-4181</p>
+                    <p class="lang lang-kr">안녕하세요! 한국에서 태어나 자랐고 현재 미국에서 세인트루이스 워싱턴 대학교에서 디자인을 공부하고 있는 임태은입니다. 편집, 그래픽, 모션 등 폭넓은 디자인 작업을 합니다.
+                    <p class="lang lang-en"> Welcome to my portfolio! I am an interdisciplinary designer and am a rising senior in WashU. Originally from South Korea and currently based in the United States, my work ranges from editorial to graphic, branding, and motion design.</p>
+                    </p>
+                    <p>l.taeeun@wustl.edu <br>6300 Enright Ave, <br>MO 63130 <br>+1(314) 448-2959 <br>+82 010-8684-4181
+                    </p>
                 </div>
             </div>
         </div>
@@ -43,21 +54,23 @@
             <div class="card flex">
                 <img src="image/thumbnails/titi.png" alt="">
                 <div class="card-description">
-                    <p>"공주" 컨셉의 티 브랜드의 브랜딩, 마스코트 창작 및 광고 비주얼 제작</p>
+                    <p class="lang lang-kr">"공주" 컨셉의 티 브랜드의 브랜딩, 마스코트 창작 및 광고 비주얼 제작</p>
+                    <p class="lang lang-en">Created visual identity based on mascots for a princess themed tea brand</p>
                     <div class="work-name">
                         <p class="cursive">Branding: <br> Titi Tea</p>
-                    <div class="line">
+                        <div class="line">
+                        </div>
+                        <div>
+                            <p>2026</p>
+                            <p class="lang lang-kr">브랜딩</p>
+                            <p class="lang lang-en">Adobe suite, generative AI</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>2026</p>
-                        <p>브랜딩</p>
-                    </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </a>
-<!-- 
+        <!-- 
         <a href="goblin-game.html">
             <div class="card flex">
                 <img src="image/thumbnails/titi.png" alt="">
@@ -81,17 +94,19 @@
             <div class="card flex">
                 <img src="image/thumbnails/thumbtest1.jpg" alt="">
                 <div class="card-description">
-                    <p>구겐하임 전시를 위한 포스터와 키네틱 타이포그래피 티저 영상 제작</p>
+                    <p class="lang lang-kr">구겐하임 전시를 위한 포스터와 키네틱 타이포그래피 티저 영상 제작</p>
+                    <p class="lang lang-en">Created poster and kinetic typgography teaser video for a Guggenheim exhibition</p>
                     <div class="work-name">
                         <p class="cursive">Exhibition Poster: <br> Going Dark</p>
-                    <div class="line">
+                        <div class="line">
+                        </div>
+                        <div>
+                            <p>2025</p>
+                            <p class="lang lang-kr">포스터 디자인</p>
+                            <p class="lang lang-en">Photoshop, Indesign</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>2025</p>
-                        <p>포스터 디자인</p>
-                    </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </a>
@@ -100,22 +115,24 @@
             <div class="card flex">
                 <img src="image/thumbnails/thumbnail3.jpg" alt="">
                 <div class="card-description">
-                    <p>형식, 문화, 역사적 시대가 서로 다른 두 텍스트를 교차 구성한 아코디언 형식의 책 제작</p>
+                    <p class="lang lang-kr">형식, 문화, 역사적 시대가 서로 다른 두 텍스트를 교차 구성한 아코디언 형식의 책 제작</p>
+                    <p class="lang lang-en">Created an accordian style book that interweives two texts that differ in form, culture, and historical time frame.</p>
                     <div class="work-name">
                         <p class="cursive">Book Design: <br>To Evaporate, To Endure</p>
-                    <div class="line">
+                        <div class="line">
+                        </div>
+                        <div>
+                            <p>2025</p>
+                            <p class="lang lang-kr">책 디자인</p>
+                            <p class="lang lang-en">Indeisgn, Photoshop</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>2025</p>
-                        <p>책 디자인</p>
-                    </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </a>
 
-         <!-- <a href="chethams.html">
+        <!-- <a href="chethams.html">
             <div class="card flex">
                 <img src="image/thumbnails/chethams.png" alt="">
                 <div class="card-description">
@@ -138,17 +155,19 @@
             <div class="card flex">
                 <img src="image/thumbnails/thumbnail5.jpg" alt="">
                 <div class="card-description">
-                    <p>스크린타임을 주제로 한 심포지엄의 홍보물 제작을 위해 코딩 기반 키네틱 타이포그래피와 비주얼 시스템 제작</p>
+                    <p class="lang lang-kr">스크린타임을 주제로 한 심포지엄의 홍보물 제작을 위해 코딩 기반 키네틱 타이포그래피와 비주얼 시스템 제작</p>
+                    <p class="lang lang-en">Created a web-based kinetic typography and a visual system for promotional materials of a neuroscience symposium exploring screen time</p>
                     <div class="work-name">
                         <p class="cursive">Creative Coding: <br> Screen Use Symposium</p>
-                    <div class="line">
+                        <div class="line">
+                        </div>
+                        <div>
+                            <p>2026</p>
+                            <p class="lang lang-kr">코딩, 그래픽 디자인</p>
+                            <p class="lang lang-en">p5.js, Adobe suite</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>2026</p>
-                        <p>코딩, 그래픽 디자인</p>
-                    </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </a>
@@ -175,14 +194,15 @@
         </a> -->
 
 
-         
-
-        
 
 
-    </div>
+
+
 
     </div>
+
+    </div>
+    <script src="custom.js"></script>
 </body>
 
 </html>
