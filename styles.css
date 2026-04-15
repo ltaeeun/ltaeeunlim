@@ -286,3 +286,15 @@ button {
         height: 500px;
     }
 }
+
+
+@media (max-width: 400px) {
+    .title p {
+        font-size: 70px;
+    }
+
+    .card {
+        width: 230px;
+        height: 383px;
+    }
+}
