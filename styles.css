@@ -277,6 +277,10 @@ button {
         font-size: 80px;
     }
 
+    #introduction {
+        font-size: 14px;
+    }
+
     .card {
         width: 300px;
         height: 500px;

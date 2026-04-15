@@ -240,4 +240,9 @@ iframe {
     .image-flex img {
         width: 100%;
     }
+
+    .subcontent {
+        max-width: 100%;
+        min-width: 200px;
+    }
 }
