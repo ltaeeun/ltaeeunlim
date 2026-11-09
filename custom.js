@@ -123,7 +123,7 @@ const pages = {
     </p></div>
     <img src="image/aidkit/postermock.jpg" alt="Poster">
     <img src="image/aidkit/poster.jpg" alt="Poster">
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/proto/QBr2LEp4Jmz7VRg9LoeJUA/Documentation?node-id=25-117&starting-point-node-id=25%3A117&embed-host=share" allowfullscreen></iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600px" src="https://embed.figma.com/proto/QBr2LEp4Jmz7VRg9LoeJUA/Documentation?node-id=25-117&starting-point-node-id=25%3A117&embed-host=share" allowfullscreen></iframe>
     </div>
     
 

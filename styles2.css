@@ -122,6 +122,10 @@ button {
 
 /*title---------------------------*/
 
+.title {
+  margin: 0 0 5%;
+}
+
 
 .title p {
     font-size: clamp(7rem, 15cqw, 13rem);
