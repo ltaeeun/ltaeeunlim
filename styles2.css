@@ -88,6 +88,17 @@ button {
   z-index: 100;
 }
 
+.fixed-image.right {
+  bottom: 0; right: 0
+}
+
+.fixed-image.left {
+  bottom: 0; left: 0;
+  width: 35%;
+  opacity: 0.5;
+}
+
+
 #introduction {
     max-width: 500px;
 }
