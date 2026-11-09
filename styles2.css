@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   background: url("image/website/background.png") center / cover fixed no-repeat;
+   overscroll-behavior-y: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body {
+  min-height: 100vh;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+p{
+    line-height: 1.8;
+}
+
+.cursive {
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    transform: rotate(-3deg);
+    line-height: 1.1;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+    font-family: "Nanum Gothic", sans-serif;
+    cursor: pointer;
+    background: none;
+}
+
+.lang-switch button, .lang-switch span {
+  opacity: 0.5;
+}
+
+.lang-switch button.active {
+  opacity: 1;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    mix-blend-mode: exclusion;
+    margin: 0.5rem 0;
+}
+
+.fixed-image {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  opacity:0.7;
+  height: auto;
+  z-index: 100;
+}
+
+#introduction {
+    max-width: 500px;
+}
+
+/*----------inner-wrap------------------------*/
+
+#inner-wrap {
+    width: 50%;
+    padding: 1rem;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    padding: 0 5rem 0 0;
+    z-index: 999;
+}
+
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -9999;
+    padding: 1rem;
+}
+
+/*title---------------------------*/
+
+
+.title p {
+    font-size: clamp(7rem, 15cqw, 13rem);
+    transform: rotate(-3deg);
+    margin: 3%;
+    line-height: 1.1;
+}
+
+/*card----------------------*/
+
+#card-wrap {
+    margin-top: 90vh;
+}
+
+.card {
+    background-color: #EDE8E0;
+    border: 1px solid #d4c7bd;
+    width: 70%;
+    z-index: 10;
+    margin: 3% auto;
+    padding: 3%;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.30);
+    transition: transform 0.3s ease;
+    opacity: 0.99;
+    animation: swing 3s ease-in-out infinite;
+}
+
+.card .work-name p {
+    mix-blend-mode: exclusion;
+    color: white;
+}
+
+.card-button {
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: top center;
+}
+.card-button:nth-child(odd) {
+  animation-name: swing-left;
+}
+
+/* Even cards: start tilted right */
+.card-button:nth-child(even) {
+  animation-name: swing-right;
+}
+
+@keyframes swing-left {
+  0%, 100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes swing-right {
+  0%, 100% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+
+
+/*페이지 열림----------------------*/
+
+.detail-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100dvh;
+  background: rgb(41, 39, 38);
+  color: white;
+  overflow-y: auto;
+  z-index: 1000000;
+
+  display: none;
+}
+
+.detail-panel.active {
+  display: block;
+}
+
+.detail-content {
+  padding: 80px 20px 40px;
+}
+
+/* X 버튼 */
+.close-btn {
+  position: sticky;
+  top: 20px;
+  margin-left: auto;
+  padding: 0 20px;
+  display: block;
+  z-index: 999;
+
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  mix-blend-mode: exclusion;
+}
+
+
+/*-------inner pannel------*/
+
+.detail-panel h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: 0 0 5%;
+}
+
+.detail-panel .flex {
+    justify-content: flex-start;
+}
+
+.detail-panel .subheading {
+    font-size: 1.3rem;
+    margin: 1% 0;
+}
+
+.detail-panel .margin {
+    margin: 5% 0;
+}
+
+.detail-panel img {
+    max-width: max-content;
+
+}
+
+
+
+
+
+@media (max-width: 1023px) {
+    #inner-wrap, #fixed, #header, .detail-panel {
+        width: 100%;
+    }
+    #fixed .flex {
+        flex-direction: column;
+    }
+    .fixed-image {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .fixed-image {
+        width: 70%;
+    }
+}
