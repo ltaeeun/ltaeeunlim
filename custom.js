@@ -69,7 +69,7 @@ const pages = {
     <img src="image/titi/poster2.png" alt="Poster">
     <div class="margin">
     <p class="subheading">Strategy</p>
-    <p>For the project, I created two mascots ”Princess Titi“ and ”Princess Tina“. These mascots embody the identity of the brand, always performing elegant, refined, and confident behaviors. Their roles extend beyond mere visual appeal and represents consumers‘ ideal selves and aspirations. All 3D graphics were created using Nano Banana Pro.
+    <p>The wordmark replaces the dot of the lowercase “i” with a heart, creating a cute, feminine mood. Building on this motif, I incorporated bold hearts and geometric shapes into the marginal graphics to establish a cohesive visual identity.<br><br>For the project, I created two mascots ”Princess Titi“ and ”Princess Tina“. These mascots embody the identity of the brand, always performing elegant, refined, and confident behaviors. Their roles extend beyond mere visual appeal and represents consumers‘ ideal selves and aspirations. All 3D graphics were created using Nano Banana Pro.
     </p></div>
     <img src="image/titi/banner.png" alt="banner">
     <img src="image/titi/poster_mockup.png" alt="Poster Mockup">
@@ -94,7 +94,7 @@ const pages = {
     <img src="image/goingDark/poster-gallery.jpg" alt="Going Dark Poster">
     <div class="margin">
     <p class="subheading">Strategy</p>
-    <p>I led viewers to experience the theme <i>edge of visibility</i> by layering a glass textured typography over the poster and distorting the content beneath.
+    <p>Glass-textured typography serves as the poster's main graphic element, covering the entire composition and distorting the content beneath it. As viewers attempt to read the distorted information, they directly engage with the exhibition's main concept <i>edge of visibility.</i> In this way, the poster goes beyond the role of a promotional material, becoming an extention of the exhibition experience itself. <br> <br> The visual elements of the poster was extended to a promotional motion graphic piece.
     </p></div>
     <iframe width="472" height="840" src="https://www.youtube.com/embed/msd3ZD47x48"
                 title="YouTube video player" frameborder="0"
@@ -114,12 +114,12 @@ const pages = {
     <div class="line"></div>
     <div class="margin">
     <p class="subheading">Project Description</p>
-    <p>Redesigned Fromis 9’s 6th mini album <From our 20s>, as a first aid kit for broken hearts. Inspired by the recurring themes of heartbreak and recovery throughout the tracks, as well as the group’s own journey through agency changes and member reorganization, the concept reimagines the album as an emotional recovery kit, offering healing through music.
+    <p>I redesigned Fromis 9’s 6th mini album "From our 20s" as a first aid kit for broken hearts. Inspired by the recurring themes of heartbreak and recovery throughout the tracks, as well as the group’s own journey through agency changes and member reorganization, the concept reimagines the album as an emotional recovery kit, offering healing through music.
     </p></div>
     <img src="image/aidkit/kit-poster.png" alt="Poster for Kit">
     <div class="margin">
     <p class="subheading">Strategy</p>
-    <p>The image treatment evokes a thermal camera and visualizes intense heat, translating the emotional turmoil of heratbreak. Stickers that are applied across the kit serve as the metaphor for the act of treating emotional injuries, just as bandages are applied to physical wounds.
+    <p>The image treatment evokes a thermal camera and visualizes intense heat, translating the emotional turmoil of heratbreak. Stickers applied across the kit serve as the metaphor for the act of treating emotional injuries, just as bandages are applied to physical wounds. Further, an informational website was designed to explain each component's purpose and use.
     </p></div>
     <img src="image/aidkit/postermock.jpg" alt="Poster">
     <img src="image/aidkit/poster.jpg" alt="Poster">
@@ -144,7 +144,7 @@ const pages = {
     <img src="image/Offwhite/beright_og.png" alt="Poster">
     <div class="margin">
     <p class="subheading">Strategy</p>
-    <p>To capture the brand’s distinctive streetwear aesthetic while emphasizing the collection’s retro theme, I used Midjourney to create imagery inspired by 1990s American street scenes. I also designed a title graphic evoking a retro neon sign, complementing the imagery and creating a cohesive visual direction that reinforces the collection’s concept.
+    <p>To capture the brand’s distinctive streetwear concept while emphasizing the collection’s retro theme, I used Midjourney to create imageries inspired by 1990s American street scenes. I also designed a title graphic evoking a retro neon sign, complementing the generated images and creating a cohesive visual direction that reinforces the collection’s concept.
     </p></div>
     <img src="image/Offwhite/berightback_poster.png" alt="Poster">
     </div>
