@@ -100,13 +100,16 @@ button {
 
 
 #introduction {
-    max-width: 500px;
+    max-width: 700px;
+}
+
+#introduction p {
+  margin: 0 0 10px;
 }
 
 /*----------inner-wrap------------------------*/
 
 #inner-wrap {
-    width: 50%;
     padding: 1rem;
 }
 
@@ -145,8 +148,19 @@ button {
 
 /*card----------------------*/
 
+#card-main {
+  width: 100%;
+  min-width: 0;
+  transition: width 0.4s ease;
+}
+
 #card-wrap {
-    margin-top: 80vh;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  margin-top: 80vh;
+  
 }
 
 .card {
@@ -168,11 +182,26 @@ button {
 }
 
 .card-button {
+  flex: 0 0 calc(50% - 15px);
+  min-width: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     transform-origin: top center;
 }
+
+#wrap.page-open #card-wrap {
+  width: 50%;
+}
+
+#wrap.page-open .card-button {
+  flex-basis: 100%;
+}
+
 .card-button:nth-child(odd) {
   animation-name: swing-left;
 }
@@ -277,12 +306,15 @@ button {
     #inner-wrap, #fixed, #header, .detail-panel {
         width: 100%;
     }
-    #fixed .flex {
+    #fixed .flex, #card-wrap {
         flex-direction: column;
     }
     .fixed-image.right {
         width: 55%;
     }
+    #wrap.page-open .main-page {
+    width: 100%;
+  }
 
 }
 

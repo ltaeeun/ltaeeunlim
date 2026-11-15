@@ -158,9 +158,11 @@ const pages = {
 function openPage(pageId) {
   const panel = document.getElementById("detailPanel");
   const content = document.getElementById("detailContent");
+  const layout = document.querySelector("#wrap");
 
   content.innerHTML = pages[pageId] || "";
   panel.classList.add("active");
+  layout.classList.add("page-open");
 
   // 항상 맨 위부터 표시
   panel.scrollTop = 0;
@@ -169,4 +171,13 @@ function openPage(pageId) {
 function closePage() {
   const panel = document.getElementById("detailPanel");
   panel.classList.remove("active");
+  document.querySelector("#wrap").classList.remove("page-open");
 }
+
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+
+window.addEventListener("load", () => {
+  window.scrollTo(0, window.innerHeight * 0.7);
+});
