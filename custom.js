@@ -179,5 +179,5 @@ if ("scrollRestoration" in history) {
 }
 
 window.addEventListener("load", () => {
-  window.scrollTo(0, window.innerHeight * 0.7);
+  window.scrollTo(0, window.innerHeight * 0.4);
 });

@@ -6,7 +6,7 @@
 
 html {
    background: url("image/website/background.png") center / cover fixed no-repeat;
-   overscroll-behavior-y: none;
+   overscroll-behavior: none;
 }
 
 a {
@@ -272,6 +272,29 @@ button {
   mix-blend-mode: exclusion;
 }
 
+
+
+
+/*------abt me -------------*/
+p.emphasis {
+  font-size: 25px;
+}
+
+span.color {
+  color: green;
+}
+
+.about-section {
+  max-width: 500px;
+  margin: 0 0 3rem;
+}
+
+.about-des {
+  color: grey;
+  font-size: 13px;
+  line-height: 1.1;
+  margin: 0 0 10px;
+}
 
 /*-------inner pannel------*/
 
