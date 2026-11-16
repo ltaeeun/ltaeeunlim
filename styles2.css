@@ -328,7 +328,7 @@ span.color {
     #inner-wrap, #fixed, #header, .detail-panel {
         width: 100%;
     }
-    #fixed .flex, #card-wrap {
+    #fixed .flex, #card-wrap, #about-me .flex {
         flex-direction: column;
     }
     .fixed-image.right {
