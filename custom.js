@@ -117,12 +117,13 @@ const pages = {
     <p>I redesigned Fromis 9’s 6th mini album "From our 20s" as a first aid kit for broken hearts. Inspired by the recurring themes of heartbreak and recovery throughout the tracks, as well as the group’s own journey through agency changes and member reorganization, the concept reimagines the album as an emotional recovery kit, offering healing through music.
     </p></div>
     <img src="image/aidkit/kit-poster.png" alt="Poster for Kit">
+    <img src="image/aidkit/poster.jpg" alt="Poster">
     <div class="margin">
     <p class="subheading">Strategy</p>
     <p>The image treatment evokes a thermal camera and visualizes intense heat, translating the emotional turmoil of heratbreak. Stickers applied across the kit serve as the metaphor for the act of treating emotional injuries, just as bandages are applied to physical wounds. Further, an informational website was designed to explain each component's purpose and use.
     </p></div>
     <img src="image/aidkit/postermock.jpg" alt="Poster">
-    <img src="image/aidkit/poster.jpg" alt="Poster">
+    <img src="image/aidkit/photobook.gif" alt="photobook gif">
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600px" src="https://embed.figma.com/proto/QBr2LEp4Jmz7VRg9LoeJUA/Documentation?node-id=25-117&starting-point-node-id=25%3A117&embed-host=share" allowfullscreen></iframe>
     </div>
     
