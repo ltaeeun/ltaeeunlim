@@ -194,9 +194,7 @@ button {
     transform-origin: top center;
 }
 
-#wrap.page-open #card-wrap {
-  width: 50%;
-}
+
 
 #wrap.page-open .card-button {
   flex-basis: 100%;
@@ -293,6 +291,20 @@ span.color {
   font-size: 13px;
   line-height: 1.1;
   margin: 0 0 10px;
+}
+
+/*------page open width -------*/
+
+#wrap.page-open #card-wrap {
+  width: 50%;
+}
+
+#wrap.page-open #about-me .flex {
+  flex-direction: column;
+}
+
+#wrap.page-open #about-me {
+  width: 90%;
 }
 
 /*-------inner pannel------*/
